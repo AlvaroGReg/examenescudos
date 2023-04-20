@@ -1,7 +1,6 @@
 .maintitle{
     color: antiquewhite;
     text-decoration: underline;
-
     letter-spacing: 20px;
     text-transform: capitalize;
     font-weight: 600;
@@ -11,15 +10,19 @@
     border-style: solid;
 }
 
+.maintitle::first-letter{
+    font-size: 40px;
+}
+
 h1{
     text-align: left;
     color: wheat;
     text-decoration: underline;
 }
 
-h1,h2,h3::first-letter{
-    -webkit-initial-letter: 1.5;
-    initial-letter: 1.5;
+h1::first-letter{
+    font-size: 45px;
+    text-transform: capitalize;
 }
 
 header>label{
