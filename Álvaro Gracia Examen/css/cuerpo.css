@@ -5,30 +5,6 @@ body {
   background-size: cover;
 }
 
-/*HOME*/
-.sectionhome {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.sectionhome > .homeintro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-}
-.sectionhome > .homeshields {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  gap: 5vw;
-}
-.sectionhome > .homeshields > img {
-  max-width: 8vw;
-}
-
 /*SECTIONS*/
 
 .tab {
@@ -38,9 +14,24 @@ body {
   align-items: center;
   display: none;
 }
+.tab>.articleheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articleheader>.sectiontitle{
+    width: 100vw;
+    display: flex;
+    align-items: start;
+}
 
 .tab > .articleheader > a > img {
   width: 150px;
+}
+
+.articleinfo{
+    width: 80%;
 }
 
 .tab > .articleinfo {
@@ -52,6 +43,58 @@ body {
 input:checked ~ .tab {
   display: flex;
   position: absolute;
-
   top: 100px;
+  left: 0;
+}
+
+/*HOME*/
+
+.sectionhome > .homeintro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.sectionhome > .homeshields {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+}
+.sectionhome > .homeshields > img {
+  max-width: 8vw;
+}
+
+/*CONTACT*/
+
+.table{
+    width: 90vw;
+    height: 60vh;
+    border: solid 1px white;
+}
+
+.table>.row{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.table>.row>.cell{
+    width: 50%;
+    border: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    width: 90%;
+    height: 90%;
+}
+
+form>.formdiv{
+    display: flex;
+    flex-direction: column;
 }
