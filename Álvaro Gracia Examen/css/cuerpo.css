@@ -1,0 +1,57 @@
+body {
+  background-image: url("../src/backgroundimg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*HOME*/
+.sectionhome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionhome > .homeintro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.sectionhome > .homeshields {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+}
+.sectionhome > .homeshields > img {
+  max-width: 8vw;
+}
+
+/*SECTIONS*/
+
+.tab {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+
+.tab > .articleheader > a > img {
+  width: 150px;
+}
+
+.tab > .articleinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input:checked ~ .tab {
+  display: flex;
+  position: absolute;
+
+  top: 100px;
+}
