@@ -1,5 +1,8 @@
+h1,h2,label,.maintitle{
+    color: wheat;
+}
+
 .maintitle{
-    color: antiquewhite;
     text-decoration: underline;
     letter-spacing: 15px;
     text-transform: capitalize;
@@ -17,12 +20,7 @@
 
 h1{
     text-align: left;
-    color: wheat;
     text-decoration: underline;
-}
-
-h2{
-    color: wheat;
 }
 
 h1::first-letter{
@@ -30,16 +28,10 @@ h1::first-letter{
     text-transform: capitalize;
 }
 
-header>label{
+header>label, h1{
     font-size: 2em;
 }
 
 nav>ul>li>label{
     font-size: 1.2em;
-}
-
-
-
-h1{
-    font-size: 2em;
 }

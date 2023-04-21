@@ -10,18 +10,10 @@ header{
     flex-direction: column;
     align-items: center;
 }
-header>input{
+header>nav>ul>li>input, header>input{
     opacity: 0;
     z-index: -1;
     position: absolute;
-}
-header>nav>ul>li>input{
-    opacity: 0;
-    z-index: -1;
-    position: absolute;
-}
-label{
-    color: antiquewhite;
 }
 
 nav{
@@ -45,5 +37,5 @@ footer{
 }
 
 footer>img{
-    width: 40px;
+    width: 35px;
 }
