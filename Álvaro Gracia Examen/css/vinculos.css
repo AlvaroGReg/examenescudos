@@ -3,9 +3,7 @@
   font-size: 1.5em;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-decoration: none;
-  border-color: red;
-  border-width: 1px;
-  border-style: solid;
+  border: solid red 1px;
 }
 
 .tab > .articleinfo > a:hover {
@@ -16,9 +14,11 @@
   border-style: none;
 }
 
+nav>ul>li>label:hover{
+    border-style: none;
+}
+
 nav>ul>li>label{
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    border-color: red;
-    border-width: 1px;
-    border-style: solid;
+    border: solid red 1px;
 }
