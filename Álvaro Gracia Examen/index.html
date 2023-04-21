@@ -244,94 +244,24 @@
                   <div class="row">
                     <div class="cell">
                       <h2>CONTACTO</h2>
-                      <form action="mailto:contacto@partidoszamora.es">
-                        <div>
-                          <div>
-                            <label for="date" class="formbuilder-date-label"
-                              >Fecha<span class="formbuilder-required"
-                                >*</span
-                              ></label
-                            >
-                            <input
-                              type="date"
-                              class="form-control"
-                              name="date"
-                              access="false"
-                              id="date"
-                              required="required"
-                              aria-required="true"
-                            />
-                          </div>
-                          <div>
-                            <label for="name" class="formbuilder-text-label"
-                              >Nombre y apellidos<span
-                                class="formbuilder-required"
-                                >*</span
-                              ></label
-                            >
-                            <input
-                              type="text"
-                              class="form-control"
-                              name="name"
-                              maxlength="80"
-                              id="name"
-                              required="required"
-                              aria-required="true"
-                            />
-                          </div>
-                          <div>
-                            <label
-                              for="number-1681986183182"
-                              class="formbuilder-number-label"
-                              >Código Postal<span class="formbuilder-required"
-                                >*</span
-                              ></label
-                            >
-                            <input
-                              type="number"
-                              name="number-1681986183182"
-                              min="5"
-                              max="5"
-                              id="number-1681986183182"
-                              required="required"
-                              aria-required="true"
-                            />
-                          </div>
-                          <div>
-                            <label for="phone" class="formbuilder-number-label"
-                              >Teléfono<span class="formbuilder-required"
-                                >*</span
-                              ></label
-                            >
-                            <input
-                              type="number"
-                              class="form-control"
-                              name="phone"
-                              min="9"
-                              max="12"
-                              id="phone"
-                              required="required"
-                              aria-required="true"
-                            />
-                          </div>
-                          <div>
-                            <label
-                              for="text-1681986254325"
-                              class="formbuilder-text-label"
-                              >Indicaciones</label
-                            >
-                            <input
-                              type="text"
-                              class="form-control"
-                              name="text-1681986254325"
-                              access="false"
-                              id="text-1681986254325"
-                            />
-                          </div>
+                      <form action="mailto:registro@partidoszamora.es">
+                        <div class="formdiv">
+                          <label for="date"></label>
+                          <input type="date">
+                          <label for="named">Nombre</label>
+                          <input type="text" id="named"/>
 
-                          <input type="submit" />
-                          <input type="reset" />
+                          <label for="postal">Código postal</label>
+                          <input type="number" maxlength="5" id="postal" />
+
+                          <label for="telephone">Teléfono</label>
+                          <input type="tel" id="telephone" />
+
+                          <label for="indicaciones">Indicaciones</label>
+                          <input type="text" id="indicaciones" />
                         </div>
+                        <input class="button" type="submit" />
+                        <input class="button" type="reset" />
                       </form>
                     </div>
 
@@ -351,8 +281,8 @@
                           <label for="pass">Contraseña</label>
                           <input type="password" id="pass" />
                         </div>
-                        <input type="submit" />
-                        <input type="reset" />
+                        <input class="button" type="submit" />
+                        <input class="button" type="reset" />
                       </form>
                     </div>
                   </div>
